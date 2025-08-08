@@ -1,0 +1,9 @@
+name: Call Generate SBOM workflow
+
+on:
+  push
+  
+jobs:
+  call-workflow:
+    uses: luckydb-0/ospo-workflows/.github/workflows/generate-and-update-sbom.yml@main
+
