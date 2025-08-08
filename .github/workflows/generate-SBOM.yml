@@ -5,5 +5,5 @@ on:
   
 jobs:
   call-workflow:
-    uses: luckydb-0/fossology/.github/workflows/generate-sbom.yml@main
+    uses: luckydb-0/fossology/.github/workflows/generate-sbom.yml@master
 
